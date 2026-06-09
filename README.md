@@ -2,14 +2,16 @@
 
 All merged pull requests across open source projects.
 
-**Total merged: 23**
+**Total merged: 26**
 
 ---
 
-## rust-lang/rust-analyzer (11 merged)
+## rust-lang/rust-analyzer (13 merged)
 
 | PR | Title | Date |
 |----|-------|------|
+| [#22523](https://github.com/rust-lang/rust-analyzer/pull/22523) | fix: `extract_function` misses `&mut` for `container[i].mut_method()` | 2026-06-06 |
+| [#22437](https://github.com/rust-lang/rust-analyzer/pull/22437) | fix: `extract_module` missing import for macro calls | 2026-05-25 |
 | [#22077](https://github.com/rust-lang/rust-analyzer/pull/22077) | fix: avoid panic in replace_if_let_with_match on jump scrutinee | 2026-04-17 |
 | [#22073](https://github.com/rust-lang/rust-analyzer/pull/22073) | fix: handle empty `/**/` in block_to_line assist | 2026-04-17 |
 | [#22020](https://github.com/rust-lang/rust-analyzer/pull/22020) | internal: migrate `inline_call` assist to `SyntaxEditor` | 2026-04-12 |
@@ -49,8 +51,9 @@ All merged pull requests across open source projects.
 
 ---
 
-## rust-lang/rust (1 merged)
+## rust-lang/rust (2 merged)
 
 | PR | Title | Date |
 |----|-------|------|
+| [#157413](https://github.com/rust-lang/rust/pull/157413) | fix: don't suggest .into_iter() for .cloned()/.copied() on non-reference Option | 2026-06-08 |
 | [#153469](https://github.com/rust-lang/rust/pull/153469) | docs: clarify path search behavior in std::process::Command::new | 2026-03-06 |
