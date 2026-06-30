@@ -2,7 +2,7 @@
 
 All merged pull requests across open source projects.
 
-**Total merged: 26**
+**Total merged: 27**
 
 ---
 
@@ -51,9 +51,10 @@ All merged pull requests across open source projects.
 
 ---
 
-## rust-lang/rust (2 merged)
+## rust-lang/rust (3 merged)
 
 | PR | Title | Date |
 |----|-------|------|
+| [#158454](https://github.com/rust-lang/rust/pull/158454) | regression test for `Trait<A><B>` in "consider further restricting this bound" suggestion | 2026-06-28 |
 | [#157413](https://github.com/rust-lang/rust/pull/157413) | fix: don't suggest .into_iter() for .cloned()/.copied() on non-reference Option | 2026-06-08 |
 | [#153469](https://github.com/rust-lang/rust/pull/153469) | docs: clarify path search behavior in std::process::Command::new | 2026-03-06 |
